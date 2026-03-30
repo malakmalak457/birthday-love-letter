@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Love Letter</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #FFFACD, #FFEFD5);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            animation: glow 1.5s infinite;
+        }
+        @keyframes glow {
+            0% {text-shadow: 0 0 5px #ff99cc, 0 0 10px #ff99cc, 0 0 15px #ff99cc;}
+            50% {text-shadow: 0 0 10px #ff99cc, 0 0 20px #ff99cc, 0 0 30px #ff99cc;}
+            100% {text-shadow: 0 0 5px #ff99cc, 0 0 10px #ff99cc, 0 0 15px #ff99cc;}
+        }
+        .floating-heart {
+            position: relative;
+            font-size: 30px;
+            animation: float 6s linear infinite;
+        }
+        @keyframes float {
+            0% {transform: translateY(0);} 
+            50% {transform: translateY(-20px);} 
+            100% {transform: translateY(0);} 
+        }
+        .surprise-btn {
+            padding: 10px 20px;
+            font-size: 20px;
+            color: white;
+            background-color: #ff69b4;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .surprise-btn:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <h1>عيد ميلاد سعيد!</h1>
+    <img src="https://example.com/teddy-bear.png" alt="Teddy Bear" />
+    <div class="floating-heart">💖</div>
+    <p>نحبببببببببببببببببببببببببببببببك</p>
+    <button class="surprise-btn" onclick="alert('Happy Birthday! Here’s a surprise just for you!')">مفاجأة</button>
+    <h2>رسائل عيد الميلاد:</h2>
+    <ul>
+        <li>مبروك لك!</li>
+        <li>أتمنى لك أحلى الأوقات.</li>
+        <li>أنت نجم اليوم!</li>
+        <li>أنت أفضل شخص في حياتي.</li>
+        <li>عام مليء بالحب والسعادة.</li>
+        <li>أتمنى لك كل الخير.</li>
+        <li>لا يوجد شخص مثل قلبك.</li>
+        <li>أنت مصدر سعادتي.</li>
+        <li>أنت مميز جدًا.</li>
+        <li>أنت هديتي الثمينة.</li>
+        <li>كل سنة وأنت طيب.</li>
+    </ul>
+</body>
+</html>
